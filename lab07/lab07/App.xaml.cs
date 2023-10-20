@@ -10,7 +10,7 @@ namespace lab07
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ImplicitDemo();
         }
 
         protected override void OnStart()
