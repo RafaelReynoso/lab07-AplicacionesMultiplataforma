@@ -6,13 +6,7 @@
     <StackLayout>
         <StackLayout>
             <StackLayout>
-                <Button x:Name="Item12" Text="DynamicDemo"></Button>
-                <Button x:Name="Item13" Text="ExplicitControlDemo"></Button>
-                <Button x:Name="Item15" Text="ExplicitDemo"></Button>
-                <Button x:Name="Item12" Text="GlobalDemo"></Button>
-                <Button x:Name="Item13" Text="ImplicitControlDemo"></Button>
-                <Button x:Name="Item15" Text="ImplicitDemo"></Button>
-                <Button x:Name="Item15" Text="InheritanceDemo"></Button>
+                <Button x:Name="DynamicDemo" Text="DynamicDemo"></Button>
             </StackLayout>
         </StackLayout>
     </StackLayout>

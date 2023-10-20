@@ -13,6 +13,10 @@ namespace lab07
         public MainPage()
         {
             InitializeComponent();
+            DynamicDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new DynamicDemo());
+            };
 
         }
     }
