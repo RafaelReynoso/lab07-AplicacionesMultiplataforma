@@ -13,6 +13,7 @@ namespace lab07
         public MainPage()
         {
             InitializeComponent();
+
         }
     }
 }
