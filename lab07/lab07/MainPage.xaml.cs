@@ -17,6 +17,35 @@ namespace lab07
             {
                 await Navigation.PushAsync(new DynamicDemo());
             };
+            ExplicitControlDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ExplicitControlDemo());
+            };
+            ExplicitDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ExplicitDemo());
+            };
+            GlobalDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new GlobalDemo());
+            };
+            ImplicitControlDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ImplicitControlDemo());
+            };
+            ImplicitDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new ImplicitDemo());
+            };
+            InheritanceDemo.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new InheritanceDemo());
+            };
+            Tarea.Clicked += async (sender, e) =>
+            {
+                await Navigation.PushAsync(new Tarea());
+            };
+
 
         }
     }
